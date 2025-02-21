@@ -66,12 +66,13 @@ ul li {
     margin: 5px 0;
     border-radius: 5px;
     font-size: 16px;
-    transition: background 0.3s;
+    transition: background 0.7s;
     cursor: pointer;
 }
 
 ul li:hover {
-    background: #d65a4a;
+    background: #bc4536;
+    
 }
 
 

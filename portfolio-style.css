@@ -29,6 +29,9 @@ section {
     box-shadow: 0px 0px 10px gray;
 }
 
+ul li :hover{
+    background:skyblue;
+}
 
 
 footer {
