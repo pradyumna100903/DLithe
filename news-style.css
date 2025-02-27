@@ -95,6 +95,12 @@ ul li:hover {
 
 }
 
+.dark-mode {
+    background-color: #1b0101;
+    color: white;
+}
+
+
 
 section p {
     font-size: 18px;

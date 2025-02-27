@@ -22,6 +22,25 @@ function checkEligibility() {
 
 }
 
+function calculateCost() {
+    let destination = document.getElementById("destination").value;
+    let costMessage = document.getElementById("costMessage");
+
+    let costs = {
+        "paris": 1500,
+        "london": 1400,
+        "california": 1800
+    };
+
+    if (destination && costs[destination]) {
+        costMessage.style.color = "green";
+        costMessage.textContent = `Estimated Cost: $${costs[destination]} per person.`;
+    } else {
+        costMessage.style.color = "red";
+        costMessage.textContent = "Please select a valid destination.";
+    }
+}
+
 
 
 

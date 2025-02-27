@@ -22,12 +22,16 @@
     </section>
 
     <section>
-        <h2>Popular Destinations</h2>
-        <ul>
-            <li> Paris, France  </li>
-            <li> London,UK </li>
-            <li> California,United States </li>
-        </ul>
+        <h2>Select Destination</h2>
+        <select id="destination">
+            <option value="">Select Destination</option>
+            <option value="paris">Paris, France</option>
+            <option value="london">London, UK</option>
+            <option value="california">California, USA</option>
+        </select>
+        <button onclick="calculateCost()">Get Cost</button>
+        <p id="costMessage"></p>
+        
        
     </section>
 
